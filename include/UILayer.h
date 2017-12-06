@@ -18,8 +18,14 @@ class UILayer
         UILayer();
 
         //Dæmi um föll í UI layer, gætu verið Fyrir Umsjón, sölu o.s.frv.
+
+        //Keyrir upp UI-ið
         void run();
+
+        //Sýnir viðmótið sem er notað til að búa til pizzu og kallar síðan í næsta layer
         void AddPizza();
+
+        //Sýnir viðmótið sem er notað til að sækja pizzur og kallar síðan í næsta layer
         void GetAllPizzas();
 };
 

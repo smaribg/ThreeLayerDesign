@@ -6,11 +6,11 @@ DataLayer::DataLayer()
 }
 
 void DataLayer::addPizza(Pizza pizza){
-    // Vista pizzu í file
+    //Hér ætti að taka pizzuna sem kemur inn sem færibreyta og vista í file
 }
 
 vector<Pizza> DataLayer::getAllPizzas(){
-    //Finna pizzur úr file
+    //Hér ætti að finna pizzur úr file og skila þeim
     vector<Pizza> p;
     return p;
 }

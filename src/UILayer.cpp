@@ -10,12 +10,16 @@ void UILayer::run(){
 }
 
 void UILayer::AddPizza(){
-    // Leyfa notanda að búa til pizzu
+    //Hér ætti að leyfa notanda að búa til pizzu
+
+    //Sendir pizzu í næsta layer:
     Pizza pizza;
     _businessLayer.addPizza(pizza);
 }
 
 void UILayer::GetAllPizzas(){
+
+    //Sækir pizzur í næsta lag fyrir neðan
     vector<Pizza> p = _businessLayer.getAllPizzas();
 }
 
